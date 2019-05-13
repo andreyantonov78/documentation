@@ -1,16 +1,12 @@
-
-
+{{venue_endpoint}}/api/feedback
+POST
 {
-    "venueId": 1,
-    "tabId": "59d69393-0f61-4985-98ea-768aa404bcd0",
-    //1-5
-    "stars": 3,
-    //1(not good) 2(okay) 3(very good)
-    "food": 1,
-    "beverage": 2,
-    "service": 3,
-    "atmosphere": 1,
-    "notice": "",
-    "created": "2019-05-10 16:02:57.814+00:00",
-    "updated": "2019-05-10 16:02:57.814+00:00"
+    "venueId": 1, //(required)
+    "tabId": "59d69393-0f61-4985-98ea-768aa404bcd0",//(required)
+    "stars": 3, //1-5 ,(required)
+    "food": 1, //1(not good) 2(okay) 3(very good)
+    "beverage": 2, //1(not good) 2(okay) 3(very good)
+    "service": 3, //1(not good) 2(okay) 3(very good)
+    "atmosphere": 1, //1(not good) 2(okay) 3(very good)
+    "notice": ""
 }
